@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.918) !important;
+    
+}
+
+    .rectangles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .card{
+        width: 145px;
+        height: 145px;
+        background-color:  rgba(169, 169, 169, 0.1) !important;
+        border-radius: 10px;
+        padding: 5px 0px 0px 20px;
+       
+    }
+    .ellipse{
+        display: block;
+    }
+    .vector{
+        position: relative;
+        /* left: 85px; */
+        /* top: 120px; */
+    }
+    .top-record-container{
+        position: relative;
+    }
+    .top-record-left{
+      position: absolute;
+    }
+    .top-record-right{
+        position: absolute;
+        left:75px;
+        top:75px;
+      }
+      .container-record{
+          position: relative;
+          padding-left: 5%;
+          padding-right: 5%;
+          width: 100%;
+      }
+     
+      .top-share-right{
+        position: absolute;
+        right: 12px;
+        top: 100px;
+      }
+      .fs-small{
+          font-size:12px;
+          font-weight: 700;
+      }
+      .fs-smally{
+          font-size: 10px;
+      }
+      .mt-6{margin-top:5rem!important}
+
+    .De-incident{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .fa-circle{
+        font-size: 5px;
+    }
+    .text-light{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .form-control{
+        height: 47px;
+    }
+    
+    .footer{
+        position: fixed;
+        bottom: 0;
+        height: 56px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+    .home-icon {
+        display: block;
+        font-size: 15px;
+    }
+    .prof-icon{
+        display: block;
+        font-size: 15px;
+    }
+    .speak-icon{
+        font-size: 10px;
+     
+    }
+    .btn-danger{
+        background: rgba(243, 22, 41, 0.8) !important;
+        width: 128px;
+        height: 38px;
+        font-size: 10px !important;
+        
+    }
+    .pencil{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        
+    }
+    .pencil-middle{
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+    .form-outline{
+      position: relative;
+    }
+   
+    .foot-text{
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .email{
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 10px;
+        font-family: Montserrat;
+        position: absolute;
+        left: 77px;
+        top: 55px;
+       
+    }
+    .profile{
+        position: relative;
+
+    }
+
+    .line{
+        border: 1px solid grey;
+    }
+
+
+    .my-image{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+
+    }
+    .caro .carousel-indicators button{
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        
+    }
+    .caro .carousel-indicators{
+        top: 101%;
+    }
+    
+
+    @media only screen and (max-width:576px){
+        
+        
+      .top-share-right{
+        position: absolute;
+        right: 12px;
+        top: 2px;
+      }
+    }
+   
+    @media only screen and (max-width:1024px){
+        .my-pix{
+            position: relative;
+            top: -17px;
+            right: 20px;
+        }
+        
+
+    }
+    @media only screen and (min-width:1200px){
+        .my-pix{
+            position: relative;
+            top: -20px;
+            right: 20px;
+        }
+    }
